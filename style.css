@@ -92,3 +92,7 @@ p {
 #item-2 {
     border-left: 6px solid #0000FF;
 }
+
+footer p {
+    text-align: center;
+}
