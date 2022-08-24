@@ -11,11 +11,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .title-color {
     color: #FFA500;
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -59,4 +63,32 @@ section {
 
 p {
     text-align: justify;
+}
+
+.h4-color {
+    color: #FFA500;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}
+
+.experiences-item {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#item-1 {
+    border-left: 6px solid #FF6347;
+}
+
+#item-2 {
+    border-left: 6px solid #0000FF;
 }
